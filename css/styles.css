@@ -182,7 +182,6 @@ img {
     background-position: center;
     background-size: cover;
     
-    height: 600px;
     max-width: 1600px;
     margin: 0 auto;
 }   
@@ -218,10 +217,8 @@ img {
 
     cursor: pointer;
 
-    display: inline-block;
     min-width: 170px;
     padding: 16px 32px;
-    gap: 10px;
 }
 
 .modal-button:hover,
@@ -310,10 +307,9 @@ img {
 
 .team-icon-list {
     display: flex;
-    justify-content: space-between;
-    padding: 4px 16px;
+    justify-content: center;
     gap: 24px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .team-icon-link {
@@ -340,6 +336,7 @@ img {
 }
 
 .customers-link {
+    color: var(--subtle-color);
     border: 1px solid var(--subtle-color);
     border-radius: 4px;
 
@@ -349,15 +346,12 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-    border: 1px solid var(--primary-brand-color);
+    border-color: 1px solid var(--primary-brand-color);
+    color: var(--primary-brand-color);
 }
 
 .customers-icon {
-    fill: var(--subtle-color);
-}
-.customers-icon:hover,
-.customers-icon:focus {
-    fill: var(--primary-brand-color);
+    fill: currentColor;
 }
 
 /* ======= Footer ======= */
@@ -473,7 +467,7 @@ img {
 .button:focus {
     background-color: var(--primary-brand-color);
     color: var(--white-color);
-    border: transparent;
+    border-color: transparent;
     border-radius: 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
